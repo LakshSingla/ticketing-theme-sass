@@ -41,6 +41,7 @@ ul {
   display: -webkit-flex;
   display: flex;
   border: 2px solid black;
+  width: 58.4758942457%;
   flex-direction: column;
   overflow: auto; }
   .body-right #header {
@@ -69,5 +70,11 @@ ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+  .body-left h1 {
+    font-family: "Nixie One", sans-serif;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 10px 0px 0px 10px; }
 
 /*# sourceMappingURL=main.css.map */
