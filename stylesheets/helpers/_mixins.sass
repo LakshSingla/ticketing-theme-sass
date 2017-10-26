@@ -1,0 +1,14 @@
+//Vendor Prefix mixins
+//Read https://sass-guidelin.es/#mixins to know more about vendor prefixing
+
+@mixin prefix($property, $value, $prefixes: ()) 
+  @each $prefix in $prefixes 
+    -#{$prefix}-#{$property}: $value
+
+  #{$property}: $value
+
+@mixin flexed
+    display: -webkit-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex
