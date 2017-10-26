@@ -1,0 +1,39 @@
+//For positioning amongs different components of the page
+
+#body-wrapper
+    @include flexed()
+    @include lb(2)
+    width: 100%
+    height: 100%
+
+.body-left
+    @include flexed()
+    @include lb(2)
+    flex-direction: column
+    width: 534/1286 * 100%
+    height: 100%
+    justify-content: space-between
+
+
+.body-right
+    @include flexed()
+    @include lb(2)
+    flex-direction: column
+    overflow: auto
+
+    #header
+        @include flexed()
+        @include lb(1)        
+        width: 100%
+        position: fixed
+        height: 76px
+        
+    .content
+        margin-top: 76px
+
+    #cart
+        @include flexed()
+        @include lb(1)
+        width: 100%
+        position: fixed
+        bottom: 0px

@@ -15,4 +15,59 @@ ul {
 .hidden {
   display: none; }
 
+#body-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%; }
+
+.body-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  width: 41.5241057543%;
+  height: 100%;
+  justify-content: space-between; }
+
+.body-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  overflow: auto; }
+  .body-right #header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    position: fixed;
+    height: 76px; }
+  .body-right .content {
+    margin-top: 76px; }
+  .body-right #cart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    position: fixed;
+    bottom: 0px; }
+
+.body-left {
+  background: url("../img/event-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 /*# sourceMappingURL=main.css.map */
