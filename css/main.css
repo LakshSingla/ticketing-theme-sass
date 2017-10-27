@@ -54,16 +54,14 @@ ul {
     position: fixed;
     height: 76px; }
   .body-right .content {
-    margin-top: 76px; }
+    margin-top: 76px;
+    width: 100%; }
   .body-right #cart {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
     border: 1px solid black;
     width: 100%;
     position: fixed;
-    bottom: 0px; }
+    bottom: 0px;
+    width: 100%; }
 
 .body-left {
   background: url("../img/event-banner.jpg");
@@ -75,6 +73,43 @@ ul {
     color: #ffffff;
     font-size: 28px;
     font-weight: 300;
-    padding: 10px 0px 0px 10px; }
+    padding: 20px 0px 0px 20px; }
+  .body-left #description {
+    color: #ffffff;
+    padding: 0px 0px 20px 20px; }
+    .body-left #description h2 {
+      font-size: 38px;
+      line-height: 38px; }
+    .body-left #description h4 {
+      text-transform: uppercase; }
+
+.body-right #header {
+  background-color: #ffffff;
+  z-index: 1000; }
+  .body-right #header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center; }
+    .body-right #header ul li {
+      padding: 15px; }
+.body-right #cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center; }
+
+#buy-tickets-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap; }
+  #buy-tickets-content ul .ticket-container {
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
