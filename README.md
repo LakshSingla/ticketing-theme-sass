@@ -12,4 +12,4 @@ A project to understand modular styling using sass.
 
 ## Acknowledgments
 
-* Web template which was replicated : https://www.styleshout.com/free-templates/khronos/
+* Web template which was replicated: http://demo.pixpalette.com/stage-bootstrap-one-page-event-ticket-booking-theme/
