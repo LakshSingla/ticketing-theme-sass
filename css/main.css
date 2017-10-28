@@ -42,23 +42,27 @@ ul {
   display: flex;
   border: 2px solid black;
   width: 58.4758942457%;
-  flex-direction: column;
-  overflow: auto; }
+  flex-direction: column; }
   .body-right #header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     border: 1px solid black;
-    width: 100%;
+    width: 57.975894%;
     position: fixed;
     height: 76px; }
   .body-right .content {
     margin-top: 76px;
-    width: 100%; }
-  .body-right #cart {
-    border: 1px solid black;
     width: 100%;
+    overflow: auto; }
+  .body-right #cart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border: 1px solid black;
+    width: 57.987894% !important;
     position: fixed;
     bottom: 0px;
     width: 100%; }
@@ -99,7 +103,9 @@ ul {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: center; }
+  background-color: #ffffff;
+  z-index: 1000;
+  justify-content: space-between; }
 
 #buy-tickets-content ul {
   display: -webkit-box;
