@@ -1,60 +1,139 @@
-/*
-Error: File to import not found or unreadable: components/_tt-info.sass.
-       Load path: /media/laksh/New Volume/Web Design/One Page Love - Stage/stylesheets
-        on line 20 of stylesheets/main.sass
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  border: 0px;
+  box-sizing: border-box; }
 
-15: //Layout files
-16: @import 'layout/_grid.sass'
-17: @import 'layout/_body-left.sass'
-18: @import 'layout/_body-right.sass'
-19: @import 'layout/_buy-tickets-grid.sass'
-20: @import 'components/_tt-info.sass'
-21: //Component files
+html, body {
+  width: 100%;
+  height: 100%; }
 
-Backtrace:
-stylesheets/main.sass:20
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:45:in `import'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:28:in `imported_file'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:37:in `css_import?'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `map'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:36:in `css_tree'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/var/lib/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/var/lib/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: components/_tt-info.sass.\A        Load path: /media/laksh/New Volume/Web Design/One Page Love - Stage/stylesheets\A         on line 20 of stylesheets/main.sass\A \A 15: //Layout files\A 16: @import 'layout/_grid.sass'\A 17: @import 'layout/_body-left.sass'\A 18: @import 'layout/_body-right.sass'\A 19: @import 'layout/_buy-tickets-grid.sass'\A 20: @import 'components/_tt-info.sass'\A 21: //Component files"; }
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+@font-face {
+  font-family: "Nixie One";
+  src: url("../fonts/NixieOne-Regular.otf") format("otf"); }
+.hidden {
+  display: none; }
+
+#body-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%; }
+
+.body-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  width: 41.5241057543%;
+  height: 100%;
+  justify-content: space-between; }
+
+.body-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  border: 2px solid black;
+  width: 58.4758942457%;
+  flex-direction: column; }
+  .body-right #header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border: 1px solid black;
+    width: 57.975894%;
+    position: fixed;
+    height: 76px; }
+  .body-right .content {
+    margin-top: 76px;
+    width: 100%;
+    overflow: auto; }
+  .body-right #cart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border: 1px solid black;
+    width: 57.987894% !important;
+    position: fixed;
+    bottom: 0px;
+    width: 100%; }
+
+.body-left {
+  background: url("../img/event-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .body-left h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px 0px 0px 20px; }
+  .body-left #description {
+    color: #ffffff;
+    padding: 0px 0px 20px 20px; }
+    .body-left #description h2 {
+      font-size: 38px;
+      line-height: 38px; }
+    .body-left #description h4 {
+      padding-top: 5px;
+      text-transform: uppercase; }
+
+.body-right #header {
+  background-color: #ffffff;
+  z-index: 1000; }
+  .body-right #header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center; }
+    .body-right #header ul li {
+      padding: 10px; }
+.body-right #cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #ffffff;
+  z-index: 1000;
+  justify-content: space-between; }
+
+#buy-tickets-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 20px;
+  margin-bottom: 25px; }
+  #buy-tickets-content ul .ticket-container {
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px; }
+
+.ticket-inner-wrapper {
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding: 7px;
+  flex-direction: column; }
+
+/*# sourceMappingURL=main.css.map */
