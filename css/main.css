@@ -27,7 +27,6 @@ a {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  border: 2px solid black;
   width: 100%;
   height: 100%; }
   @media screen and (max-width: 767px) {
@@ -39,7 +38,6 @@ a {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  border: 2px solid black;
   flex-direction: column;
   width: 41.5241057543%;
   height: 100%;
@@ -54,7 +52,6 @@ a {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  border: 2px solid black;
   width: 58.4758942457%;
   flex-direction: column; }
   @media screen and (max-width: 767px) {
@@ -66,7 +63,6 @@ a {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    border: 1px solid black;
     width: 57.975894%;
     position: fixed;
     height: 76px; }
@@ -89,7 +85,6 @@ a {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    border: 1px solid black;
     width: 57.987894% !important;
     position: fixed;
     bottom: 0px;
@@ -162,7 +157,6 @@ a {
       margin-bottom: 0px;
       padding-bottom: 10px; } }
   #buy-tickets-content ul .ticket-container {
-    border: 1px solid black;
     width: 50%;
     padding: 10px; }
     @media screen and (max-width: 991px) {
@@ -170,7 +164,6 @@ a {
         width: 100%; } }
 
 .ticket-inner-wrapper {
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -184,10 +177,7 @@ a {
     display: flex;
     width: 100%;
     justify-content: space-between; }
-    .ticket-inner-wrapper .ticket-header .tt-pricing {
-      border: 1px solid black; }
     .ticket-inner-wrapper .ticket-header .tt-add {
-      border: 1px solid black;
       display: -webkit-box;
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -200,8 +190,5 @@ a {
         display: -webkit-flex;
         display: flex;
         justify-content: space-around; }
-
-* {
-  border: none; }
 
 /*# sourceMappingURL=main.css.map */
