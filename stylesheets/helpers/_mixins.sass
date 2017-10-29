@@ -1,8 +1,8 @@
 //Vendor Prefix mixins
 //Read https://sass-guidelin.es/#mixins to know more about vendor prefixing
 
-@mixin prefix($property, $value, $prefixes: ()) 
-  @each $prefix in $prefixes 
+@mixin prefix($property, $value, $prefixes: ())
+  @each $prefix in $prefixes
     -#{$prefix}-#{$property}: $value
 
   #{$property}: $value
@@ -20,3 +20,11 @@
 //For Layout-Border
 @mixin lb($width)
   border: #{$width}px solid black
+
+
+//Mixin for breakpoint
+
+@mixin break($size)
+  $sc-size: $size
+  @media screen and (max-width: $sc-size)  
+    @content

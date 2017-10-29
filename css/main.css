@@ -30,6 +30,9 @@ a {
   border: 2px solid black;
   width: 100%;
   height: 100%; }
+  @media screen and (max-width: 767px) {
+    #body-wrapper {
+      flex-direction: column; } }
 
 .body-left {
   display: -webkit-box;
@@ -41,6 +44,9 @@ a {
   width: 41.5241057543%;
   height: 100%;
   justify-content: space-between; }
+  @media screen and (max-width: 767px) {
+    .body-left {
+      width: 100%; } }
 
 .body-right {
   display: -webkit-box;
@@ -50,6 +56,9 @@ a {
   border: 2px solid black;
   width: 58.4758942457%;
   flex-direction: column; }
+  @media screen and (max-width: 767px) {
+    .body-right {
+      width: 100%; } }
   .body-right #header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -59,6 +68,9 @@ a {
     width: 57.975894%;
     position: fixed;
     height: 76px; }
+    @media screen and (max-width: 767px) {
+      .body-right #header {
+        width: 100%; } }
   .body-right .content {
     margin-top: 76px;
     width: 100%;
@@ -73,6 +85,9 @@ a {
     position: fixed;
     bottom: 0px;
     width: 100%; }
+    @media screen and (max-width: 767px) {
+      .body-right #cart {
+        width: 99% !important; } }
 
 .body-left {
   background: url("../img/event-banner.jpg");
@@ -133,6 +148,9 @@ a {
     border: 1px solid black;
     width: 50%;
     padding: 10px; }
+    @media screen and (max-width: 991px) {
+      #buy-tickets-content ul .ticket-container {
+        width: 100%; } }
 
 .ticket-inner-wrapper {
   border: 1px solid black;
