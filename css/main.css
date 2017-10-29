@@ -72,11 +72,18 @@ a {
     height: 76px; }
     @media screen and (max-width: 767px) {
       .body-right #header {
-        width: 100%; } }
+        width: 100%;
+        position: static;
+        height: 76px;
+        margin-top: 20px; } }
   .body-right .content {
     margin-top: 76px;
     width: 100%;
     overflow: auto; }
+    @media screen and (max-width: 767px) {
+      .body-right .content {
+        margin-top: 0px;
+        overflow: visible; } }
   .body-right #cart {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -89,7 +96,8 @@ a {
     width: 100%; }
     @media screen and (max-width: 767px) {
       .body-right #cart {
-        width: 99% !important; } }
+        width: 99% !important;
+        position: static; } }
 
 .body-left {
   background: url("../img/event-banner.jpg");
@@ -146,6 +154,10 @@ a {
   flex-wrap: wrap;
   padding: 15px 20px;
   margin-bottom: 25px; }
+  @media screen and (max-width: 767px) {
+    #buy-tickets-content ul {
+      margin-bottom: 0px;
+      padding-bottom: 10px; } }
   #buy-tickets-content ul .ticket-container {
     border: 1px solid black;
     width: 50%;

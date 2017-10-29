@@ -19,6 +19,8 @@
     @include break($md)
         height: 300px
         width: 100%
+
+
 .body-right
     @include flexed()
     @include lb(2)
@@ -39,7 +41,6 @@
     //     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3)
     //     background-color: #D62929
 
-
     #header
         @include flexed()
         @include lb(1)
@@ -49,11 +50,19 @@
 
         @include break($md)
             width: 100%
+            position: static
+            height: 76px
+            margin-top: 20px
 
     .content
         margin-top: 76px
         width: 100%
         overflow: auto
+
+        @include break($md)
+            margin-top: 0px
+            overflow: visible
+
 
     #cart
         @include flexed()
@@ -64,3 +73,4 @@
         width: 100%
         @include break($md)
             width: 99% !important
+            position: static
