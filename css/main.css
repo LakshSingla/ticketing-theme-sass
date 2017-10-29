@@ -46,6 +46,7 @@ a {
   justify-content: space-between; }
   @media screen and (max-width: 767px) {
     .body-left {
+      height: 300px;
       width: 100%; } }
 
 .body-right {
@@ -58,7 +59,8 @@ a {
   flex-direction: column; }
   @media screen and (max-width: 767px) {
     .body-right {
-      width: 100%; } }
+      width: 100%;
+      height: calc(100% - 300px); } }
   .body-right #header {
     display: -webkit-box;
     display: -ms-flexbox;
