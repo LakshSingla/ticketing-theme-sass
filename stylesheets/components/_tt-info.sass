@@ -3,3 +3,21 @@
     @include flexed()
     padding: 7px
     flex-direction: column
+
+    .ticket-header
+        @include flexed()
+        width: 100%
+        justify-content: space-between
+
+        .tt-pricing
+            @include lb(1)
+
+        .tt-add
+            @include lb(1)
+            @include flexed()
+            flex-direction: column
+            justify-content: space-around
+
+            .tt-qty
+                @include flexed()
+                justify-content: space-around

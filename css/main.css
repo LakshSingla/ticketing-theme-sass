@@ -135,5 +135,28 @@ a {
   display: flex;
   padding: 7px;
   flex-direction: column; }
+  .ticket-inner-wrapper .ticket-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+    .ticket-inner-wrapper .ticket-header .tt-pricing {
+      border: 1px solid black; }
+    .ticket-inner-wrapper .ticket-header .tt-add {
+      border: 1px solid black;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .ticket-inner-wrapper .ticket-header .tt-add .tt-qty {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-around; }
 
 /*# sourceMappingURL=main.css.map */
